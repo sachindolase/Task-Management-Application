@@ -32,4 +32,8 @@
 - React Router was used for navigation between the home page and task detail page.
 - The app is designed to be responsive and follows the provided Figma design.
 
+## Screenshots for responsive design
+![Screenshot (751)](https://github.com/user-attachments/assets/0ac5c9db-7744-476f-a212-7448a8313c4d)
+![Screenshot (750)](https://github.com/user-attachments/assets/c47cba33-4289-4b62-a7f5-958817b3e2eb)
+
 Thanku...
