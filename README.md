@@ -1,7 +1,6 @@
-# RegisterKro Assignment Task
+# RegisterKro frontend Assignment Task
 
-## As a part of this assessment you will be required to build a Task Management Application. Below are
-the key instructions for the assignment:
+## As a part of this assessment you will be required to build a Task Management Application. Below are the key instructions for the assignment:
 
 ## Core Functionality:
 - Create, update, and delete tasks.
@@ -10,7 +9,7 @@ the key instructions for the assignment:
 - Sort tasks by creation date or priority.
   
 ## State Management:
--Use React’s useState and useEffect hooks to manage state effectively.
+- Use React’s useState and useEffect hooks to manage state effectively.
 
 ## Routing:
 - Use React Router to create two pages:
