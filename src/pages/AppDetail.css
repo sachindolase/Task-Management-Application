@@ -1,0 +1,57 @@
+
+
+                  /* TastDetailPage css */
+.app-detail-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .app-detail-container h2 {
+    color: #ff7043; 
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .app-detail-container p {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .app-detail-container .priority {
+    font-weight: bold;
+    color: #5f0101; 
+  }
+  
+  .app-detail-container .completed {
+    font-weight: bold;
+    color: #9ab450; 
+  }
+  
+  .app-detail-container .date {
+    font-style: normal;
+    color: #adadad; 
+  }
+  
+  .back-button {
+    display: inline-block;
+    background-color: #690101;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #691900; 
+    cursor: pointer;
+  }
+  

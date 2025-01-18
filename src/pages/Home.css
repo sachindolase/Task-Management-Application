@@ -1,0 +1,161 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3 {
+    color: #df5240; 
+  }
+  
+  a {
+    text-decoration: none;
+    color: #d63f3f;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #2fc26c;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #dd5353;
+  }
+  
+
+/* HomePage Section in good be design */
+  
+  .homepage-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #690000;
+  }
+  
+  .filters-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filters-container button {
+    background-color: #6b0000;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filters-container button:hover {
+    background-color: #830101;
+  }
+  
+                                                /* AppList Section in good design */
+  .task-list-container {
+    margin-top: 30px;
+  }
+  
+  .task-item {
+    background-color: #6b0202; 
+    border: 1px solid #adaf18; 
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .task-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .task-item.completed {
+    background-color: #c8e6c9; 
+  }
+  
+  .task-item button {
+    background-color: #7a0202;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-item button:hover {
+    background-color: #700101;
+  }
+  
+  
+  .task-form-container {
+    background-color: #750101;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .task-form-container input,
+  .task-form-container select {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ffccbc;
+    width: 100%;
+  }
+  
+  .task-form-container button {
+    background-color: white;
+    color: #86020d;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #790101;
+    width: 100%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-form-container button:hover {
+    background-color: #680101;
+    color: white;
+  }
+  
+                       /* AppFilter and Appsort section is to be good design */
+  .task-filter-sort-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .task-filter-sort-container button {
+    background-color: #a4b40d;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .task-filter-sort-container button:hover {
+    background-color: #970202;
+  }
+  
+  
